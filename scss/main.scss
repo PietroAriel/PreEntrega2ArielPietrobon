@@ -1,0 +1,46 @@
+.flexpadre {
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo {
+  color: $color;
+  padding: 20px 20px;
+  background-color: black;
+  margin: 20px 20px 20px 20px;
+  text-align: center;
+}
+
+.h2 {
+  text-align: center;
+}
+
+.lista {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.redes img {
+  width: 50px;
+  transition: height 5s;
+}
+
+.redes img:hover {
+  height: 100px;
+}
+
+.valoresfondo {
+  background-image: url(../multimedia/gale2.jpg);
+  color: antiquewhite;
+}
+
+
+a:hover {
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+  text-decoration: underline;
+}
+
+@import "fotos"
+$color: red

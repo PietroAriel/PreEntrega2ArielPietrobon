@@ -1,0 +1,28 @@
+.contenedorfotos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    grid-gap: 10px;
+  }
+  .contindivfoto {
+    position: relative;
+  }
+  
+  .foto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .contenedorfotos {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .titulo {
+      color: black;
+      padding: 20px 20px;
+      background-color: red;
+      margin: 20px 20px 20px 20px;
+      text-align: center;
+    }
+  }
